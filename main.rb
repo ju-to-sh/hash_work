@@ -28,8 +28,8 @@ def disp_judge(list)
 
            #{comprehensive_judge(data)}
          TEXT
-    puts "---------------------" if list.size == count
   end
+  puts "---------------------"
 end
 
 disp_judge(list)
