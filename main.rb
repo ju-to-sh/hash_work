@@ -17,9 +17,7 @@ def comprehensive_judge(data)
 end
 
 def disp_judge(list)
-  count = 0
   list.each do |data|
-    count += 1
     puts <<~TEXT
            ---------------------
            #{data[:name]}さん
